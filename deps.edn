@@ -1,0 +1,8 @@
+{:paths ["src"]
+
+ :deps {net.java.dev.jna/jna {:mvn/version "5.6.0"}}
+
+ :aliases {:jar {:extra-deps {seancorfield/depstar {:mvn/version "1.0.96"}}
+                 :main-opts ["-m" "hf.depstar.jar" "ClojureLLVM.jar"]}
+
+           :examples {:main-opts ["-m" "examples.sum"]}}}

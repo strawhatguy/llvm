@@ -1,0 +1,4 @@
+*.jar
+*.log
+.DS_Store
+/.cpcache/

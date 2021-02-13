@@ -2,3 +2,4 @@
 *.log
 .DS_Store
 /.cpcache/
+/.nrepl-port
